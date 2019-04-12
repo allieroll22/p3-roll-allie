@@ -1,0 +1,39 @@
+main {
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+header {
+  padding: 3%;
+}
+li {
+  width: 40%;
+  height: 300px;
+  display: inline-block;
+  text-align: center;
+
+  border: 1px solid black;
+}
+
+ul li p {
+  font-size: 30px;
+  padding:40%;
+  margin: 0;
+}
+
+#green {
+  background-color: #8cf232;
+}
+#blue {
+  background-color: #22f9f6;
+}
+#yellow {
+  background-color: #fbff23;
+}
+#magenta {
+  background-color: #ec22ff;
+}
+.orange {
+  background-color: #ff9f21;
+}
