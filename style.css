@@ -37,3 +37,7 @@ ul li p {
 .orange {
   background-color: #ff9f21;
 }
+
+.hide {
+  display:none;
+}
