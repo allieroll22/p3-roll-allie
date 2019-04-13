@@ -41,3 +41,7 @@ ul li p {
 .hide {
   display:none;
 }
+
+#fortuneDisplay {
+  font-size: 30px;
+}
