@@ -1,11 +1,24 @@
+body {
+  background-color: #e0e0e0;
+}
+
 main {
   max-width: 900px;
   text-align: center;
   margin: 0 auto;
+
 }
 
 header {
   padding: 3%;
+  font-family: 'Satisfy', cursive;
+
+}
+
+h2 {
+  font-family: 'Satisfy',cursive;
+  font-size: 39px;
+  padding-bottom: 2%;
 }
 li {
   width: 40%;
@@ -36,12 +49,21 @@ ul li p {
 }
 .orange {
   background-color: #ff9f21;
+
+}
+
+#layer-one {
+  transition: 2s ease;
 }
 
 .hide {
   display:none;
+  transition: 2s ease;
 }
 
 #fortuneDisplay {
-  font-size: 30px;
+  font-size: 90px;
+  color:#110d56;
+  font-family: 'Arima Madurai', cursive;
+  transition: all 3s;
 }

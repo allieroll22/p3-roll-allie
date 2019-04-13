@@ -4,6 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+
+
     <title>Project 3</title>
   </head>
   <body>
@@ -12,10 +17,11 @@
     <main>
       <header>
         <h1> Let's Play!</h1>
-        <h2>Pick a Color</h2>
-      </header>
 
-        <ul id="layer-one">
+      </header>
+      <div id="layer-one">
+        <h2>Pick a Color</h2>
+        <ul id="">
           <li id="green">
             <p class="block" >Green</p>
           </li>
@@ -29,9 +35,11 @@
             <p class="block">Magenta</p>
           </li>
         </ul>
+      </div>
 
-
-        <ul id="layer-two" class="hide">
+      <div id="layer-two" class="hide">
+        <h2>Pick a Number</h2>
+        <ul >
           <li id="green">
             <p class="block-2" >1</p>
           </li>
@@ -45,9 +53,12 @@
             <p class="block-2">4</p>
           </li>
         </ul>
+      </div>
 
 
-        <ul id="layer-three" class="hide">
+        <div id="layer-three" class="hide">
+          <h2>Pick Another Number</h2>
+          <ul>
           <li id="green">
             <p class="block-3" >4</p>
           </li>
@@ -61,12 +72,14 @@
             <p class="block-3">1</p>
           </li>
         </ul>
+      </div>
 
-        <section id="layer-four" class="hide">
+        <div id="fortune-wrapper" class="hide">
+
           <p class="block-4" id ="fortuneDisplay">
-            <!-- fortune goes here -->
+            <span><!-- fortune goes here --></span>
           </p>
-        </section>
+        </div>
 
 
 
